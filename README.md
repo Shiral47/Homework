@@ -1,6 +1,6 @@
 # Dana's Bakery Order Desk
 
-A beginner-friendly Google Colab project for Dana's Bakery in Nachlaot. The bakery order pipeline uses LangGraph to run deterministic Python rules for inventory, customer-approved substitutions, delivery, discounts, and a step-by-step order diary. It does not use an LLM or require API keys.
+A beginner-friendly Google Colab project for Dana's Bakery in Nachlaot. The bakery order pipeline uses LangGraph conditional routes for deterministic Python rules covering validation, inventory, customer-approved substitutions, delivery, discounts, and a step-by-step order diary. Its notebook includes 12 order-path test cases. It does not use an LLM or require API keys.
 
 ## Repository structure
 
