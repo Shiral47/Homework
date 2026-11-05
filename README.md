@@ -1,18 +1,18 @@
-# Creative Ideas
+# Dana's Bakery Order Desk
 
-A beginner-friendly Google Colab notebook that asks OpenAI for one unusual, creative, and practical use for an everyday object.
+Beginner-friendly Google Colab notebooks for Python projects. The bakery order notebook helps Dana's Bakery in Nachlaot process orders using current menu prices, daily inventory, replacement suggestions, delivery rules, discounts, and a step-by-step diary for each order.
 
 ## Repository structure
 
-- `creative_ideas.ipynb` — the interactive notebook.
-- `README.md` — project overview and instructions.
+- dana_bakery_orders.ipynb — interactive bakery order processing system.
+- creative_ideas.ipynb — generates a creative use for an everyday object with the OpenAI API.
+- README.md — project overview and Colab instructions.
+- AGENTS.md — contributor guidance.
 
 ## Open and run in Google Colab
 
-1. Clone the repository with `git clone https://github.com/Shiral47/Homework.git`, or open the notebook directly from GitHub using Colab's **File → Open notebook → GitHub** option.
-2. In Colab, select the `Shiral47/Homework` repository and open `creative_ideas.ipynb`. You can also use [this Colab link](https://colab.research.google.com/github/Shiral47/Homework/blob/main/creative_ideas.ipynb) after the repository is published.
-3. Run the notebook cells from top to bottom. The notebook installs the OpenAI SDK if it is missing, securely prompts for your API key, and asks for an everyday object.
-
-## API key security
-
-An OpenAI API key is required at runtime. Enter it only at the hidden `getpass` prompt in Colab. Never hardcode the key in a cell, save it in notebook output, or commit it to Git or GitHub. If a key is accidentally exposed, revoke it and create a new one.
+1. Open the repository in Colab with File → Open notebook → GitHub, or open a notebook link directly:
+   - [Dana's Bakery Order Desk](https://colab.research.google.com/github/Shiral47/Homework/blob/main/dana_bakery_orders.ipynb)
+   - [Creative Ideas](https://colab.research.google.com/github/Shiral47/Homework/blob/main/creative_ideas.ipynb)
+2. Run cells from top to bottom. In the bakery notebook, enter a product, quantity, weekday, and city when prompted. Leave city blank for shop pickup. Rerun the order-entry cell for each new order; inventory persists during the runtime and resets when it restarts.
+3. The Creative Ideas notebook requires an OpenAI API key at runtime. Enter it only at the hidden getpass prompt. Never hardcode a key, save it in notebook output, or commit it to Git or GitHub.
